@@ -1,7 +1,3 @@
-# naxxt-ui
-
-> Naxxt
-
 ## Build Setup
 
 ``` bash
