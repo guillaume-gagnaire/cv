@@ -1,8 +1,8 @@
 <template>
     <div class="skill">
         <div layout="row" layout-align="start center">
-            <div class="icon">
-                <i :class="icon"></i>
+            <div class="icon" layout="column" layout-align="center center">
+                <img :src="icon" :alt="name" />
             </div>
             <div class="name" flex="grow">
                 {{ name }}
@@ -36,17 +36,26 @@
 <style lang="scss">
     .skill {
         max-width: 100%;
-        width: 300px;
+        width: 285px;
         display: inline-block;
         margin-right: 30px;
+        vertical-align: top;
 
         > div {
-            height: 50px;
+            height: 80px;
         }
 
         .icon {
             width: 40px;
+            height: 50px;
             font-size: 32px;
+            text-align: center;
+            margin-right: 15px;
+
+            img {
+                max-width: 40px;
+                max-height: 40px;
+            }
         }
 
         .name {

@@ -22,7 +22,7 @@
 <style lang="scss">
     article#intro {
         margin: 0px auto;
-        max-width: 1290px;
+        max-width: 1340px;
         padding: 200px 20px;
         font-size: 26px;
         font-weight: 300;
