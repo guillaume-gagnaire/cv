@@ -33,6 +33,7 @@
       font-weight: 700;
       margin: 0;
       font-size: 42px;
+      text-align: center;
 
       span {
         font-weight: 300;
@@ -43,9 +44,11 @@
       margin: 0;
       font-size: 26px;
       font-weight: 300;
+      text-align: center;
     }
 
     h2 {
+      text-align: center;
 
 
       address {
