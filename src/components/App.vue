@@ -3,6 +3,7 @@
         <header-view></header-view>
         <intro-view></intro-view>
         <skills-view></skills-view>
+        <experiences-view></experiences-view>
     </div>
 </template>
 
@@ -10,6 +11,7 @@
     import HeaderView from './HeaderView.vue'
     import IntroView from './IntroView.vue'
     import SkillsView from './SkillsView.vue'
+    import ExperiencesView from './XPView.vue'
 
     export default {
         name: 'app',
@@ -22,7 +24,8 @@
         components: {
             HeaderView,
             IntroView,
-            SkillsView
+            SkillsView,
+            ExperiencesView
         }
     }
 </script>
