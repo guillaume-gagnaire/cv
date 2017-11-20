@@ -6,6 +6,10 @@
             Je suis responsable du développement de Naxxt, une Data Management Platform innovante. Nous gérons la communication de clients grands comptes en leur permettant d'analyser de façon précise le comportement de leurs clients, et ainsi, envoyer le bon message, au bon client, au bon moment, dans l'optique d'une fidélisation accrue de leurs clients.
         </experience>
 
+        <experience position="Professeur" company="Sup de Pub Bordeaux" from="Septembre 2015" to="Juillet 2017" technologies="PHP 5">
+            J'étais, pendant ces deux années, chargé de l'initiation au PHP des classes SP3 Digital, pour leur apprendre les bases de la logique, de la programmation, pour leur assurer une meilleure communication avec les développeurs qu'ils seront amenés à manager.
+        </experience>
+
         <experience position="Lead Fullstack Developer" company="Nala Multimédia" from="Novembre 2013" to="Juillet 2016" technologies="Debian, PHP 5, Apache 2, MySQL, MongoDB, CSS 3, HTML 5, Javascript, Google Maps, Foundation 5, Open Street Map, Photon, Elasticsearch">
             J'étais responsable du développement du projet <a href="https://www.caramaps.com" target="_blank">Caramaps</a>, et je suis intervenu sur de nombreux autres projets en interne ou en prestation externe.
         </experience>
