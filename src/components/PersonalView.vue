@@ -2,6 +2,7 @@
     <article id="personal">
         <h3>Intérêts personnels</h3>
         <ul>
+            <li>Moto</li>
             <li>Musique (batteur principalement, mais également guitariste et bassiste)</li>
             <li>Jeux vidéos compétitifs</li>
             <li>Photographie</li>
