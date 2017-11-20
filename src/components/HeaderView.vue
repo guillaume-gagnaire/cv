@@ -65,7 +65,7 @@
       text-align: center;
       width: 100px;
       position: absolute;
-      bottom: 0;
+      bottom: 50px;
       left: 50%;
       -webkit-transition: all 400ms ease-out;
       -moz-transition: all 400ms ease-out;

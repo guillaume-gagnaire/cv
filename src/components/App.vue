@@ -4,6 +4,9 @@
         <intro-view></intro-view>
         <skills-view></skills-view>
         <experiences-view></experiences-view>
+        <schools-view></schools-view>
+        <personal-view></personal-view>
+        <contact-view></contact-view>
     </div>
 </template>
 
@@ -12,6 +15,9 @@
     import IntroView from './IntroView.vue'
     import SkillsView from './SkillsView.vue'
     import ExperiencesView from './XPView.vue'
+    import SchoolsView from './SchoolsView.vue'
+    import PersonalView from './PersonalView.vue'
+    import ContactView from './ContactView.vue'
 
     export default {
         name: 'app',
@@ -25,7 +31,10 @@
             HeaderView,
             IntroView,
             SkillsView,
-            ExperiencesView
+            ExperiencesView,
+            SchoolsView,
+            PersonalView,
+            ContactView
         }
     }
 </script>
