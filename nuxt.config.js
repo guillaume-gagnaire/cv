@@ -35,6 +35,17 @@ module.exports = {
       }
     }
   },
-  plugins: ['~/plugins/markdown']
+  plugins: ['~/plugins/markdown'],
+  modules: [
+    ['nuxt-fontawesome', {
+      component: 'fa', 
+      imports: [
+        {
+          set: '@fortawesome/free-solid-svg-icons',
+          icons: ['fas']
+        }
+      ]
+    }]
+  ]
 }
 

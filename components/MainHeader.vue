@@ -1,10 +1,19 @@
 <template>
   <header class="row" :class="{ 'flex-column': big, reverse: !big, big: big }">
     <nav class="col">
-      <nav-link to="index">Home</nav-link>
-      <nav-link to="resume">Resume</nav-link>
-      <nav-link to="blog">Blog</nav-link>
-      <nav-link to="contact">Contact me</nav-link>
+      <button @click="$refs.links.open()"><fa icon="bars"></fa></button>
+      <div class="links">
+        <nav-link to="index">Home</nav-link>
+        <nav-link to="resume">Resume</nav-link>
+        <nav-link to="blog">Blog</nav-link>
+        <nav-link to="contact">Contact me</nav-link>
+      </div>
+      <sweet-modal style="display: none" ref="links" width="100vw">
+        <nav-link block @change="$refs.links.close()" to="index">Home</nav-link>
+        <nav-link block @change="$refs.links.close()" to="resume">Resume</nav-link>
+        <nav-link block @change="$refs.links.close()" to="blog">Blog</nav-link>
+        <nav-link block @change="$refs.links.close()" to="contact">Contact me</nav-link>
+      </sweet-modal>
     </nav>
     <main class="col">
       <div class="photo"></div>
@@ -22,9 +31,10 @@
 
 <script>
 import NavLink from './NavLink.vue';
+import { SweetModal } from 'sweet-modal-vue'
 
 export default {
-  components: { NavLink },
+  components: { NavLink, SweetModal },
   computed: {
     big() {
       return this.$route.name === 'index'
@@ -37,6 +47,20 @@ export default {
   header {
     nav {
       text-align: right;
+      
+      button {
+        background: none;
+        height: 32px;
+        width: 32px;
+        line-height: 32px;
+        text-align: center;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        outline: none;
+        margin: 7px;
+        display: none;
+      }
     }
 
     main {
@@ -89,6 +113,26 @@ export default {
         .title {
           font-size: 20px;
           font-weight: 300;
+        }
+
+        .text {
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    header {
+      nav {
+        flex-grow: 0 !important;
+
+        .links {
+          display: none;
+        }
+
+        button {
+          display: inline-block;
         }
       }
     }

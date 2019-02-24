@@ -14,9 +14,12 @@
   },
   "dependencies": {
     "@drewbot/sass-flexbox-grid": "^2.0.7",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
     "babel-runtime": "^6.26.0",
     "nuxt": "^2.0.0",
+    "nuxt-fontawesome": "^0.4.0",
     "prismjs": "^1.15.0",
+    "sweet-modal-vue": "^2.0.0",
     "vue-flex": "^2.1.2",
     "vue-markdown": "^2.2.4"
   },
