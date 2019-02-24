@@ -25,11 +25,6 @@ import NavLink from './NavLink.vue';
 
 export default {
   components: { NavLink },
-  data() {
-    return {
-      
-    }
-  },
   computed: {
     big() {
       return this.$route.name === 'index'
