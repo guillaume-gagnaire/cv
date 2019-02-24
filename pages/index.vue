@@ -6,7 +6,7 @@
     </home-block>
     <home-block title="About me" icon="user" color="#9c27b0">
       <p>I am a fullstack developer mostly in the startup world, providing advice to startups and tools for developers.</p>
-      <p>Motivated by a constant need to learn and teach, I want to pull others up to train tomorrow's next generation, focusing on well-being and caring.</p>
+      <p>Motivated by a constant need to learn and teach, I want to lift others up to train tomorrow's next generation, focusing on well-being and caring.</p>
     </home-block>
     <home-block title="Passions" icon="heart" color="#d32f2f">
       I am an amateur <a href="https://500px.com/guillaume-gagnaire" target="_blank">photographer</a> and highly passionate about motorcycles.

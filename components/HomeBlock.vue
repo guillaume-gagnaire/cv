@@ -51,6 +51,7 @@ export default {
     }
     .content {
       font-size: 18px; 
+      text-align: justify;
 
       h3 {
         margin: 0 0 10px 0;
