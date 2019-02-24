@@ -1,4 +1,4 @@
-const Vue = require('vue')
-const VueMarkdown = require('vue-markdown')
-
-Vue.use(VueMarkdown)
+import Vue from "vue";
+import VueMarkdown from "vue-markdown";
+ 
+Vue.use(VueMarkdown);

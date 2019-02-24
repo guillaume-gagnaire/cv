@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      Home
+      Resume
     </div>
   </section>
 </template>

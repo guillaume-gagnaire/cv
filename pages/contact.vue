@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div>
-      Home
+      Contact
     </div>
   </section>
 </template>
