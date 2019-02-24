@@ -1,5 +1,5 @@
 <template>
-  <span class="nav-link" :class="{ current: isCurrent }" @click="goto()">
+  <span class="nav-link" :class="{ current: isCurrent, block: block }" @click="goto()">
     <slot></slot>
   </span>
 </template>
@@ -7,7 +7,8 @@
 <script>
 export default {
   props: {
-    to: { type: String, required: true }
+    to: { type: String, required: true },
+    block: { type: Boolean, default: false }
   },
   computed: {
     isCurrent() {
@@ -17,6 +18,7 @@ export default {
   methods: {
     goto() {
       this.$router.push({ name: this.to });
+      this.$emit('change');
     }
   }
 }
@@ -37,6 +39,10 @@ export default {
     &.current {
       color: #fff;
       background: $primaryColor;
+    }
+
+    &.block {
+      display: block;
     }
   }
 </style>
