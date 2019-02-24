@@ -40,13 +40,13 @@ export default {
       flex-grow: 0 !important;
 
       .icon {
-        width: 46px;
-        height: 46px;
+        width: 52px;
+        height: 52px;
         color: #fff;
-        line-height: 46px;
+        line-height: 52px;
         text-align: center;
-        border-radius: 46px;
-        font-size: 20px;
+        border-radius: 52px;
+        font-size: 24px;
       }
     }
     .content {
