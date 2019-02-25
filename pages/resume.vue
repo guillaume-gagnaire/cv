@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <div v-for="(cat, i) in $store.state.cv.hard_skills" :key="i">
-      <h2>{{ cat.name }}</h2>
+      <skill-header :title="cat.name" :slug="cat.slug"></skill-header>
       <skill v-for="(skill, key) in cat.skills" :key="key" :skill="skill"></skill>
     </div>
   </section>
@@ -9,9 +9,10 @@
 
 <script>
 import Skill from "~/components/Skill.vue";
+import SkillHeader from "~/components/SkillHeader.vue";
 
 export default {
-  components: { Skill }
+  components: { Skill, SkillHeader }
 };
 </script>
 

@@ -26,9 +26,14 @@ export const state = () => ({
             slug: "frontend",
             skills: [
                 {
-                    name: "HTML / CSS",
+                    name: "HTML",
                     level: "expert",
-                    slug: "html-css"
+                    slug: "html"
+                },
+                {
+                    name: "CSS",
+                    level: "expert",
+                    slug: "css"
                 },
                 {
                     name: "JS",
@@ -53,7 +58,7 @@ export const state = () => ({
                 {
                     name: "NuxtJS",
                     level: "confirmed",
-                    slug: "vuejs"
+                    slug: "nuxtjs"
                 }
             ]
         },
@@ -85,7 +90,7 @@ export const state = () => ({
                 {
                     name: "Apache2",
                     level: "confirmed",
-                    slug: "apache2"
+                    slug: "apache"
                 },
                 {
                     name: "NGINX",
@@ -101,22 +106,6 @@ export const state = () => ({
                     name: "Docker",
                     level: "confirmed",
                     slug: "docker"
-                }
-            ]
-        },
-        {
-            name: "Others",
-            slug: "others",
-            skills: [
-                {
-                    name: "Git",
-                    level: "confirmed",
-                    slug: "git"
-                },
-                {
-                    name: "Adobe Photoshop",
-                    level: "confirmed",
-                    slug: "photoshop"
                 }
             ]
         }
