@@ -32,11 +32,12 @@ export default {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  height: 150px;
-  width: 150px;
+  height: 120px;
+  width: 120px;
   margin: 0 10px 10px 0;
   background: #fff no-repeat center center;
   background-size: cover;
+  vertical-align: top;
 
   .hover {
     -webkit-flex: 1 1 auto;
@@ -66,6 +67,7 @@ export default {
     span {
       padding: 0;
       opacity: 0;
+      text-align: center;
     }
 
     &:hover {
