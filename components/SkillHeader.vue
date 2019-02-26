@@ -32,7 +32,7 @@ export default {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  height: 300px;
+  height: 200px;
   width: 100%;
   margin: 30px 0 10px 0;
   background: #fff no-repeat center center;
