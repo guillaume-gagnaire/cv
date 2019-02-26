@@ -4,6 +4,9 @@
       <skill-header :title="cat.name" :slug="cat.slug"></skill-header>
       <skill v-for="(skill, key) in cat.skills" :key="key" :skill="skill"></skill>
     </div>
+
+    <skill-header title="Soft skills" slug="soft"></skill-header>
+    <skill v-for="(skill, key) in $store.state.cv.soft_skills" :key="key" :skill="skill"></skill>
   </section>
 </template>
 
