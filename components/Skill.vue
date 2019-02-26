@@ -3,6 +3,7 @@
     <div class="hover">
       <span>{{ skill.name }}</span>
     </div>
+    <div class="level">{{ skill.level }}</div>
   </div>
 </template>
 
@@ -38,6 +39,16 @@ export default {
   background: #fff no-repeat center center;
   background-size: cover;
   vertical-align: top;
+  position: relative;
+
+  .level {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 10px;
+    top: -1px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
 
   .hover {
     -webkit-flex: 1 1 auto;
@@ -65,9 +76,13 @@ export default {
     font-weight: 700;
 
     span {
-      padding: 0;
+      position: relative;
+      top: 5px;
       opacity: 0;
       text-align: center;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
     }
 
     &:hover {
@@ -78,4 +93,3 @@ export default {
   }
 }
 </style>
-

@@ -110,23 +110,6 @@ export const state = () => ({
       ]
     }
   ],
-  soft_skills: [
-    {
-      name: "Curious",
-      level: false,
-      slug: "curious"
-    },
-    {
-      name: "Teacher at heart",
-      level: false,
-      slug: "teacher"
-    },
-    {
-      name: "Entrepreneur mind",
-      level: false,
-      slug: "entrepreneur"
-    }
-  ],
   experiences: [
     {
       title: "Lead Developer",
