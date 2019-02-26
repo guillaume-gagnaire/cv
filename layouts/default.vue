@@ -24,6 +24,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+* {
+  -webkit-text-stroke: 0.3px;
+}
+
 h1,
 h2,
 h3,

@@ -21,7 +21,7 @@ export default {
   },
   computed: {
     isCurrent() {
-      return this.$route.name === this.to
+      return this.$route.name === this.to;
     }
   },
   methods: {
@@ -29,35 +29,37 @@ export default {
       this.$router.push({ name: this.to });
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
-  .home-block {
-    margin: 40px 0;
+.home-block {
+  margin: 40px 0;
 
-    aside {
-      flex-grow: 0 !important;
+  aside {
+    flex-grow: 0 !important;
 
-      .icon {
-        width: 52px;
-        height: 52px;
-        color: #fff;
-        line-height: 52px;
-        text-align: center;
-        border-radius: 52px;
-        font-size: 24px;
-      }
-    }
-    .content {
-      font-size: 18px; 
-      text-align: justify;
-
-      h3 {
-        margin: 0 0 10px 0;
-        font-size: 22px;
-      }
+    .icon {
+      width: 52px;
+      height: 52px;
+      color: #fff;
+      line-height: 52px;
+      text-align: center;
+      border-radius: 52px;
+      font-size: 24px;
     }
   }
+  .content {
+    font-size: 17px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+
+    h3 {
+      margin: 0 0 10px 0;
+      font-size: 22px;
+    }
+  }
+}
 </style>
 
