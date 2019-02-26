@@ -7,13 +7,13 @@
       <div class="links">
         <nav-link to="index">Home</nav-link>
         <nav-link to="resume">Resume</nav-link>
-        <nav-link to="blog">Blog</nav-link>
+        <nav-link blank to="https://dev.to/heavynounours">Blog</nav-link>
         <nav-link to="contact">Contact me</nav-link>
       </div>
       <sweet-modal style="display: none" ref="links" width="100vw">
         <nav-link block @change="$refs.links.close()" to="index">Home</nav-link>
         <nav-link block @change="$refs.links.close()" to="resume">Resume</nav-link>
-        <nav-link block @change="$refs.links.close()" to="blog">Blog</nav-link>
+        <nav-link block @change="$refs.links.close()" blank to="https://dev.to/heavynounours">Blog</nav-link>
         <nav-link block @change="$refs.links.close()" to="contact">Contact me</nav-link>
       </sweet-modal>
     </nav>

@@ -33,8 +33,8 @@ export default {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  height: 120px;
-  width: 120px;
+  height: 127px;
+  width: 127px;
   margin: 0 10px 10px 0;
   background: #fff no-repeat center center;
   background-size: cover;

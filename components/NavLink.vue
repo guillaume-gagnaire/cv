@@ -8,42 +8,49 @@
 export default {
   props: {
     to: { type: String, required: true },
+    blank: { type: Boolean, required: false },
     block: { type: Boolean, default: false }
   },
   computed: {
     isCurrent() {
-      return this.$route.name === this.to
+      return this.$route.name === this.to;
     }
   },
   methods: {
     goto() {
-      this.$router.push({ name: this.to });
-      this.$emit('change');
+      if (this.blank) {
+        var win = window.open(this.to, "_blank");
+        win.focus();
+      } else {
+        this.$router.push({ name: this.to });
+        this.$emit("change");
+      }
     }
   }
-}
+};
 </script>
 
 <style lang="scss">
-  $primaryColor: #03a9f4;
+$primaryColor: #03a9f4;
 
-  .nav-link {
-    display: inline-block;
-    color: $primaryColor;
-    padding: 6px 15px;
-    font-size: 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif!important;
+.nav-link {
+  display: inline-block;
+  color: $primaryColor;
+  padding: 6px 15px;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva,
+    Arial, sans-serif !important;
 
-    &.current {
-      color: #fff;
-      background: $primaryColor;
-    }
-
-    &.block {
-      display: block;
-    }
+  &.current {
+    color: #fff;
+    background: $primaryColor;
   }
+
+  &.block {
+    display: block;
+  }
+}
 </style>
 
