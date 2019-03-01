@@ -1,5 +1,5 @@
 <template>
-  <div class="skill-header" :style="{ backgroundImage: `url(skills/${slug}.png)` }">
+  <div class="skill-header" :style="{ backgroundImage: `url(/skills/${slug}.png)` }">
     <div class="hover">
       <span>{{ title }}</span>
     </div>
@@ -32,7 +32,7 @@ export default {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  height: 200px;
+  height: 130px;
   width: 100%;
   margin: 30px 0 10px 0;
   background: #fff no-repeat center center;

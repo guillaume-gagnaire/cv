@@ -43,7 +43,11 @@ module.exports = {
         imports: [
           {
             set: "@fortawesome/free-solid-svg-icons",
-            icons: ["fas"]
+            icons: ["faBars", "faBriefcase", "faUser", "faHeart"]
+          },
+          {
+            set: "@fortawesome/free-brands-svg-icons",
+            icons: ["faGithub"]
           }
         ]
       }
