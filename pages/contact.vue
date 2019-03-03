@@ -3,13 +3,13 @@
     <p>
       You can contact me in different ways ...
     </p>
-    <home-block title="Email" icon="at" color="#3f51b5">
+    <home-block title="Email" icon="at" color="#03a9f4">
       contact(at)guillaume-gagnaire.dev
     </home-block>
-    <home-block title="Phone" icon="phone" color="#3f51b5">
+    <home-block title="Phone" icon="phone" color="#03a9f4">
       +33 (0)6 52 35 18 22
     </home-block>
-    <home-block title="This form" :icon="['fab', 'wpforms']" color="#3f51b5">
+    <home-block title="This form" :icon="['fab', 'wpforms']" color="#03a9f4">
       <form name="contact" method="POST" netlify>
         <p>
           <label>Your Name*: <input required type="text" name="name" /></label>   
