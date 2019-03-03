@@ -10,7 +10,7 @@
       +33 (0)6 52 35 18 22
     </home-block>
     <home-block title="This form" :icon="['fab', 'wpforms']" color="#03a9f4">
-      <form name="contact" method="POST" netlify>
+      <form name="contact" netlify>
         <p>
           <label>Your Name*: <input required type="text" name="name" /></label>   
         </p>
