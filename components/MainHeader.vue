@@ -24,7 +24,7 @@
           <fa :icon="['fab', 'github']"></fa>&nbsp;Github
         </nav-link>
         <nav-link block @change="$refs.links.close()" to="resume">Resume</nav-link>
-        <nav-link block @change="$refs.links.close()" blank to="https://dev.to/heavynounours">Blog</nav-link>
+        <nav-link block @change="$refs.links.close()" blank to="https://blog.guillaume-gagnaire.dev">Blog</nav-link>
         <nav-link block @change="$refs.links.close()" to="contact">Contact me</nav-link>
       </sweet-modal>
     </nav>
