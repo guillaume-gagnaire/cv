@@ -10,7 +10,7 @@
           <fa :icon="['fab', 'github']"></fa>&nbsp;Github
         </nav-link>
         <nav-link to="resume">Resume</nav-link>
-        <nav-link blank to="https://dev.to/heavynounours">Blog</nav-link>
+        <nav-link blank to="https://blog.guillaume-gagnaire.dev">Blog</nav-link>
         <nav-link to="contact">Contact me</nav-link>
       </div>
       <sweet-modal style="display: none" ref="links" width="100vw">
